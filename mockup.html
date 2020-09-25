@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        /* .container{
+
+            background-color: black;
+            max-width: 100vw;
+            max-height: 100vh;
+        } */
+
+
+
+        .header{
+
+            max-width: 100vw;
+            max-height: 100vh;
+            /* width: 85vw; */
+            /* height: 90vh; */
+            margin-left: 0vw;
+            background-image: url(header.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+         
+           /* text-align: center; */
+            }
+
+            .header-menu{
+
+                max-width: 100vw;
+                margin: 0 auto;
+                max-height: 50px;
+                border: 1px solid #C2A99D;
+                color:#F6E3D8;
+                 font-size:20px;
+
+                
+            }
+
+            #fire{
+
+                padding-top: 15px;
+                padding-left: 50px;
+
+            }
+
+            #logo{
+
+                margin-top: -30px;
+                margin-left:100px;
+                letter-spacing: 10px;
+                
+            }
+
+            ul{
+                float: right;
+                margin-right:50px;
+            }
+            ul li{
+                display: inline;
+                position: relative;
+                top:-50px;
+                margin-left: 10px;
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: normal;
+                
+            }
+
+            #arrow-down{
+
+                position:relative;
+                top: -6vh;
+            }
+            #home{
+                color: green;
+            }
+
+            .text{
+                color: white;
+                text-align: center;
+               
+            }
+            #text1{
+                margin-top: 38vh;
+                font-size: 60px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight:normal;
+            }
+
+            #text2{
+
+                font-size: 20px;
+                margin-top: -50px;
+            }
+
+            .background-button{
+
+                width: 170px;
+                height: 50px;
+                background-color: #9ACD32;
+                position:relative;
+                left:45vw;
+                top: 4vh;
+                border-radius: 25px;
+            }
+            .background-button-text{
+
+                color: white;
+                margin-left: 2vw;
+               position: relative;
+               top: 2vh;
+            }
+
+            .second-page{
+
+                max-width: 100vw;
+                height: 45vh;;
+                background-color: #9ACD32;
+                position:relative;
+                top: 19vh;    
+            }
+
+            #apple{
+
+            width: 60px;
+            margin-left: 47vw;
+            margin-top: 10vh;
+            }
+            
+            .text3{
+                padding-left: 25vw;
+                 margin-top:0vh ;
+                 color: white;
+                 font-size: 40px;
+            }
+
+            .text4{
+                color: white;
+                font-weight: 100;
+                font-size: 23px;
+                padding-left: 25vw;
+            }
+
+            .third-page{
+
+                max-width:100vw;
+                height:70vh;
+                background-color: white;
+                position: relative;
+                top: 20vh;
+
+            }
+
+            .microphone{
+
+                width: 40vw;
+                margin-left: 10vw;
+                margin-top: 10vh;
+                border-radius: 50%;
+        
+            }
+
+            #text5{
+
+                float: right;
+                color: black;
+                margin-top: 15vh;
+               margin-right: 30vw;
+               font-size:3.1rem;
+               font-weight: normal;
+               
+            }
+
+            .text6{
+                float: right;
+                color:#777777 ;
+                width: 30vw;
+                margin-top:-41vh;
+                margin-right: 18rem;
+                font-size:1.7rem;
+               
+            }  
+
+            #background-button{
+
+                position: relative;
+                top: -21vh;
+                margin-left:7vw;
+                width: 156px;
+            } 
+
+            .fourth-page{
+
+                background-color: black;
+                position: relative;
+                top: 19vh;
+                max-width: 100vw;
+                height: 70vh;
+            }
+
+            #iphone{
+
+                max-width: 35vw;
+                margin-right: 10vw;
+                margin-top: 10vh;
+                border-radius: 50%;
+                float: right;
+        
+            }
+
+            #text6{
+                width: 35vw;
+                margin-top:-27vh;
+               margin-left: 10vw;
+               float: left;
+
+            }
+
+
+            .text7{
+                 color: white;
+                 padding-top: 20vh;
+               margin-left: 10vw;
+               font-size:3.5rem;
+               font-weight: normal;
+               font-family: Arial, Helvetica, sans-serif;
+             
+            }
+
+            #background-button1{
+
+            width: 150px;
+            height: 70px;
+            background-color:white;
+            position:relative;
+            left:10vw;
+            top: 13vh;
+            border-radius: 50px;
+
+            }
+
+            #button-text{
+         margin-left:2vw;
+        position: relative;
+        top: 2vh;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:25px;
+            }
+
+        .footer{
+            max-width: 100vw,;
+            height: 50vh;
+            background-image: url(writing.jpg), url(concert.jpg), url(pencil_sharpener.jpg);
+            background-repeat: no-repeat;
+            background-size: 35%, 35%, 35%;
+            background-position: left, center, right;
+            
+        }
+
+        .footer-text{
+
+          position: relative;
+          text-align: center;
+          color:#FFFFFF;
+          font-size: 60px;
+          font-weight: normal;
+          font-style: normal;
+          font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .footer-text1{
+            position: absolute;
+            top:13vh;
+            left:11vw;
+        }
+
+        .footer-text2{
+            position: absolute;
+           top:12vh;
+           left:43vw;
+        }
+
+        .footer-text3{
+            position: absolute;
+           right: 8vw;
+           top: 12vh;
+        }
+
+        .fifth-page{   
+            max-width:100vw;
+                height:60vh;
+                background-color: white;
+                position: relative;
+                /* top: 20vh; */
+        }
+
+        #pinn{
+
+            max-width:5vw;
+            position: relative;
+            left: 50vw;
+            top: 3vh;
+        }
+        #text8{
+
+            color: black;
+            font-size: 40px;
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 45%;
+            margin-top: 2%;
+        }
+
+        #text9{
+
+                 width: 69vw;
+                margin-top:-9vh;
+               margin-left: 20vw;
+               font-family: Arial, Helvetica, sans-serif;
+               line-height:1.5;
+               
+        }
+
+       #background-button-text3{
+        
+              color: white;
+              margin-left: 2vw;
+               position: relative;
+               top: -1vh;
+
+       }    
+
+       .sixth-page{
+
+            max-width:100vw;
+                height:60vh;
+                background-color:#9ACD32;
+                position: relative;
+                top: 10vh;
+       } 
+
+       #contact-us{
+           margin-left:20vw;
+          position: relative;
+          top: 10vh;
+       }
+
+       #ppp{
+
+             max-width:3vw;
+            position: relative;
+            left: 49vw;
+            top: 8vh;
+       }
+
+       #text4{
+
+           position: relative;
+           left: 42vh;
+           top: 6vh;
+
+       }
+
+       #email{
+        max-width:3vw;
+            position: relative;
+            left: 49vw;
+            top: 5vh;
+       }
+
+         #text10{
+
+        position: relative;
+           left: 20vw;
+           top: 3vh;
+       }
+
+       .seventh-page{
+
+                 max-width:100vw;
+                height:20vh;
+                background-color:white;
+                position: relative;
+                /* top: 10vh; */
+       }
+
+       #text11{
+
+        position: relative;
+           left: -10vw;
+           top: 50vh
+
+       }
+        
+    </style>
+
+</head>
+<body>
+
+    <div class="header">
+                    <div class="header-menu">
+                        <img id="fire" src="fire.PNG">
+                      <div id="logo">LOGO</div>
+                      <div>
+
+                        <ul>
+
+                            <li id="home">Home</li>
+                            <li>Products</li>
+                            <li>Services</li>
+                            <img id="arrow-down" src="arrow-down.png">
+                            <li>Contacts</li>
+                        </ul>
+                      </div>
+
+                    </div>
+
+                    <div class="text">
+
+                        <div id="text1"><h1>Dramatically Engage</h1></div>
+                        <p id="text2">objectively innovative empowered manufactured products whereas parallel platforms.</p>
+
+                    </div>
+
+                    <div class="background-button"><span class="background-button-text">ENGAGE NOW</span></div>
+
+
+                    <div class="second-page">
+
+
+                                <img id="apple" src="apple.png">
+                                <h2 class="text3">Completely synergize resource taxing relationship</h2>
+                                <h3 class="text4">Proofessionally cultivate one-to-one custormer service with robust ideas. Dynamically innovate <br>resource-leveling custormer seervice for state of the art custormer service.</h3>
+                   
+                            </div>
+                
+                    <div class="third-page">
+
+                        <img class="microphone" src="microphone.jpg">
+                        <h3 id="text5">Best in Class</h3>
+                        <p class="text6">Holisticly predominate extensible testing procedures for reliable supply chains.Dynamically innovate resource-levelling custormer service for state of the arts custormer service.</p>
+                        <div class="background-button" id="background-button"><span class="background-button-text">CLASSIFY IT</span></div>
+                    </div>
+
+                    
+
+                    <div class="fourth-page">
+
+                        <img id="iphone" src="iphone.jpg">
+                        <h4 class="text7">Superior Quality</h4>
+                        <p class="text6" id="text6">Holisticly predominate extensible testing procedures for reliable supply chains.Dynamically innovate resource-levelling custormer service for state of the arts custormer service.</p>
+                        <div id="background-button1" id="button"><span id="button-text">TEXT IT</span></div>
+                    </div>
+
+                    <div class="footer">
+                        <div class="footer-text">
+
+                            <h5 class="footer-text1">Unleash</h5>
+                            <h5 class="footer-text2">Synergize</h5>
+                            <h5 class="footer-text3">Procrastinate</h5>
+
+
+                        </div>
+                    </div>
+
+              <div class="fifth-page">
+
+                <img id="pinn" src="pinn.jpg">
+                <h6 id="text8">Sanity Check</h6>
+                <p class="text6" id="text9">Holisticly predominate extensible testing procedures for reliable supply chains.Dynamically innovate resource-levelling custormer service for state of the arts custormer service.</p>
+                <div class="background-button"><span id="background-button-text3">CHECK NOW</span>
+              </div> 
+
+              <div class="sixth-page">
+              
+                <h2 class="text3" id="contact-us">Contact Us</h2>
+                <img id="ppp" src="ppp.png">
+                
+                <h3 class="text4" id="text4">+1(23) 456 7890</h3>
+                <img id="email" src="email.png">
+                <h3 class="text4" id="text10">info@example.com</h3>
+              
+              </div> 
+
+              <div class="seventh-page">
+
+                <p class="text6" id="text11">Copyright &#169;Example.com 2015 </p>
+
+              </div>
+                             
+              
+    </div>
+
+
+                
+   
+
+    
+
+</body>
+</html>
